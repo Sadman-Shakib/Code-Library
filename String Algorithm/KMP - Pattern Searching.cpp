@@ -23,7 +23,7 @@ using namespace std;
 #define arrin(v, n)      {for(int i = 0; i < n; ++i) cin >> v[i];}
 
 
-vector <int> build_lps(string s) {
+vector <int> build_lps(string s) { // Prefix Function 
         vector <int> lps(s.size());
         int i = 1, j = 0;
         while(i < s.size()) {
